@@ -2,12 +2,52 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!--  -->
+    <link rel="icon" type="image" href="./src/assets/favicon-MediaLABUERJ.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    
+    <!-- Titulo -->
     <title>MediaLAB UERJ</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header class="header">
+      <section>
+        <!-- Icone -->
+        <a href="#">
+          <img src="./src/assets/Logotipo_MediaLAB UERJ_ _vermelho e preto _compacta.png"
+               alt="logo" class="logo">
+        </a>
+
+        <!-- Menu de navegação -->
+        <nav class="navbar">
+          <a href="#">MediaLAB UERJ</a>
+          <a href="#humanidade-a">Humanidade Artificial</a>
+          <a href="#numeros-m">Numeros Mágicos</a>
+          <a href="#cartazes">Mostra de Cartazes</a>
+        </nav>
+      </section>
+    </header>
+
+    <div class="home-container">
+      <section id="#home">
+        <div class="content">
+          <video autoplay loop muted playsinline>
+            <source src="./src/assets/Rio2C 2025 _Logo Media LAB _1_  logo animada.mp4" type="video/mp4">
+          </video>
+
+          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit vitae architecto voluptas quae praesentium ratione doloribus, reiciendis alias aliquam quod est harum vel vero dolorum iste repudiandae. Reiciendis, corrupti?</h5>
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, distinctio. Voluptatum id minus facere eligendi laudantium delectus adipisci ab doloribus ipsum veritatis, doloremque eveniet asperiores reprehenderit. Labore itaque veritatis commodi!</h6>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
