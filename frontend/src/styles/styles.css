@@ -14,6 +14,7 @@ section {
     right: 0;
     z-index: 99;
 
+    background-color: #fff;
     box-shadow: 0 0 8px 0.1px #b1b1b1;
 }
 
@@ -69,9 +70,6 @@ section {
 }
 
 .content h5 {
-    font-weight: 600;
-}
-
-.content h6 {
-    font-weight: 600;
+    text-transform: none;
+    font-weight: 500;
 }
