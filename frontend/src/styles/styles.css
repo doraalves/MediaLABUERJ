@@ -73,3 +73,46 @@ section {
     text-transform: none;
     font-weight: 500;
 }
+
+
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 30px;
+
+    border-top: 1px solid #545454;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    padding: 0 20px 20px;
+
+    gap: 50px;
+}
+
+.footer-col img{
+    width: 80px;
+}
+
+.footer-col h6 {
+    font-weight: 500;
+
+    padding-bottom: 4px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom{
+    font-size: 12px;
+}

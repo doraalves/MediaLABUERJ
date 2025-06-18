@@ -6,6 +6,9 @@
     <link rel="icon" type="image" href="./src/assets/favicon-MediaLABUERJ.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Versão Free (ícones gratuitos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +56,33 @@
     </div>
   </body>
   <footer>
-    <img src="./src/assets/uerj.png" alt="">
+    <div class="footer-col">
+      <img src="./src/assets/uerj.png" alt="">
+      <img src="./src/assets/esdi.png" alt="">
+      
+      <div class="social">
+        <h6>Redes sociais: </h6>
+        <!--TODO: Icones das redes-->
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-solid fa-square-envelope"></i>
+      </div>
+      
+      <div class="team">
+        <!--TODO: Link para nossos perfis-->
+        <h6>Conheça a Equipe:</h6>
+        
+      </div>
+      
+    </div>
+
+    <!-- Direito reservado -->
+     <div class="footer-bottom">
+      <p>© <span id="current-year"></span> MediaLAB Todos os direitos reservados.</p>
+      <script>
+        // Define o ano atual como fallback
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+      </script>
+     </div>
   </footer>
 </html>
