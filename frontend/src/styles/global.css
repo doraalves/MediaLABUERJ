@@ -11,3 +11,19 @@
 
   transition: 0.2s linear;
 }
+
+/* Barra de rolagem */
+::-webkit-scrollbar{
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #B62420;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
